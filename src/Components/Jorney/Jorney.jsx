@@ -4,7 +4,7 @@ import { useRef } from "react";
 import "./jorney.css"
 import { Cicle } from "../cicle/cicle";
 
-import mage from "../../assets/imagens/heroImgs/mage.png"
+import mage from "../../assets/imagens/heroImgs/perfil.jpg"
 import loja_8 from "../../assets/imagens/cardsImgs/loja-8-bits.jpeg"
 
 

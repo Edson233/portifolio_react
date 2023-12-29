@@ -196,6 +196,7 @@ body{
     height: fit-content;
     background: linear-gradient(black, darkblue);
     border-radius: 50%;
+    overflow: hidden;
 }
 
 .photo{
@@ -209,7 +210,7 @@ body{
         width: 100%;
         height: 100%;
     }
-    
+
 }
 
 #parallax-about{
@@ -247,6 +248,8 @@ body{
 @media only screen and (max-width: 600px){
     .card{
         top: 1.5rem;
+        height: 35rem;
+
     }
 }
 
@@ -339,7 +342,7 @@ body{
 /* Card-média query */
 @media only screen and (max-width: 600px){
     .about-text p{
-        font-size: 0.8rem;
+        font-size: 1rem;
     }
 
     .about-text a{
