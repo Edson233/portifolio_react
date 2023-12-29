@@ -1,0 +1,27 @@
+.hero{
+    width: 100%;
+    height: 100%;
+    background-color: red;
+    z-index: 10000;
+    display: flex;
+}
+
+.hero-text{
+    height: 100%;
+    width: 100%;
+}
+
+.hero-img{
+    height: 100%;
+    width: 100%;
+}
+
+.hero-img img{
+    width: 30rem;
+    height: 30rem;
+    z-index: 10000;
+}
+
+img{
+    z-index: 1000;
+}

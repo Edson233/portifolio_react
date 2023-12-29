@@ -1,0 +1,100 @@
+
+.sky{
+    width: 120%;
+    height: 70%;
+    margin: 15rem 0 0;
+    padding: 20rem;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cicle{
+    height: 500vh;
+    width: 500vh;
+    position: fixed;
+    transform-origin: center;
+    border-radius: 50%;
+    overflow: hidden;
+    right: -75%;
+    bottom: -250%;
+}
+
+
+.day{
+    height: 50%;
+    width: 100%;
+    background: radial-gradient(
+    #041f51 20%, 
+    #1b65a6 45%, 
+    #5db6e5 55%,     
+    #9fd8ef 60%, 
+    #b5dff7 75%,
+    #b9e0fb 80%,
+    #b0dbfb 85%, 
+    #a5dcfc 100% 
+  );
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.night{
+    height: 50%;
+    width: 100%;
+    background: radial-gradient(black, darkblue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.day-center, .night-center{
+    width: 20%;
+    height: 40%;
+}
+
+.day-center{
+    margin: 0 auto auto;
+    transform: rotate(180deg);
+}
+
+.night-center{
+    margin: auto auto 0;
+}
+
+@media only screen and (max-width: 600px){
+    .day-center, .night-center{
+        width: 10%;
+        height: 30%;
+    }
+    .day-center{
+        margin-left: 10%;
+    }
+    .night-center{
+        margin-right: 10%;
+    }
+}
+
+.moon{
+    margin: 10% auto auto;
+    width: 5rem;
+    height: 5rem;
+    background: radial-gradient(silver, gray);
+    border-radius: 50%;
+    box-shadow: 0 0 105px 20px silver,
+    0 0 95px 15px silver,
+    0 0 115px 10px silver,
+    0 0 125px 5px silver;
+}
+
+.sun{
+    margin: 10% auto auto;
+    width: 5rem;
+    height: 5rem;
+    background: radial-gradient(rgb(246, 224, 100), yellow);
+    border-radius: 50%;
+    box-shadow: 0 0 45px 10px rgb(246, 224, 100),
+    0 0 55px 25px rgb(246, 224, 100),
+    0 0 65px 35px rgb(246, 224, 100);
+}
