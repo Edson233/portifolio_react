@@ -102,6 +102,24 @@ body{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+@media only screen and (max-width: 600px){
+    .hero-descript h1{
+        font-size: 1.5rem;
+    }
+
+    .hero-descript h3{
+        font-size: 1.5rem;
+    }
+
+    .hero-descript p{
+        font-size: 1rem;
+    }
+
+    .hero-descript{
+        width: 60%;
+    }
+}
+
 .hero-descript .scrollAnimation{
     width: 100%;
     display: flex;
@@ -184,6 +202,14 @@ body{
     width: 20rem;
     height: 20rem;
     margin: auto;
+}
+
+@media only screen and (max-width: 600px){
+    .photo{
+        width: 100%;
+        height: 100%;
+    }
+    
 }
 
 #parallax-about{
