@@ -31,11 +31,7 @@ export const Cicle = () => {
 
             
 
-            <motion.div className="sky" style={{
-                rotate : rotation,
-            }} >
-                
-            </motion.div>  
+
 
         </motion.div>
     )

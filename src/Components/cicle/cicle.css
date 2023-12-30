@@ -64,8 +64,15 @@
 }
 
 @media only screen and (max-width: 600px){
-    .cicle{
-        right: -240%;
+    .day-center, .night-center{
+        width: 10%;
+        height: 30%;
+    }
+    .day-center{
+        margin-left: 10%;
+    }
+    .night-center{
+        margin-right: 10%;
     }
 }
 
