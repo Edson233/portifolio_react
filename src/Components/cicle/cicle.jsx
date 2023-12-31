@@ -29,9 +29,6 @@ export const Cicle = () => {
                 </div>
             </ motion.div>
 
-            
-
-
 
         </motion.div>
     )

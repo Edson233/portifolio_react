@@ -97,7 +97,7 @@ export const Jorney = () => {
                         Estou em busca de oportunidades para aplicar e expandir meus conhecimentos. Adoro criar coisas novas e resolver desafios por meio da programação.
                     </p>
                     <p>
-                        Além de desenvolvimento front-end eu crios jogos digitais como hobbye
+                        Além de desenvolvimento front-end crio jogos digitais como hobby
                     </p>
 
                     <a href ="https://drive.google.com/uc?export=download&id=1BMfCFjnR4DNOeMUeDAYQ6HzYi6CUAg14" download='curriculo Eduardo Santos' > Baixar currículo </a>  
