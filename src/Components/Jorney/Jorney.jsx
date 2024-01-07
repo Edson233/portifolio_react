@@ -27,10 +27,10 @@ const ParallaxSection = (props) => {
     const background3y = useTransform(scrollYProgress, [0, 0.3, 0.50, 0.6, 0.7, 1], ["150%", "150%", "0%", "0%", "70%", "250%"]);
 
 
-    const showcard = useTransform(scrollYProgress, [0, 0.3, 0.31, 0.65, 0.7, 1], [0 , 0, 5, 5, 0 , 0])
+    const showcard = useTransform(scrollYProgress, [0, 0.2, 0.21, 0.75, 0.76, 1], [0 , 0, 5, 5, 0 , 0])
 
     return (
-        <motion.div className="parallax-container" ref={ref}>
+        <motion.div className={`parallax-container parallax${props.number}`} ref={ref}>
             <motion.div className="card" style={{zIndex : showcard}}>
                 {props.card}
             </motion.div>
@@ -69,7 +69,7 @@ export const Jorney = () => {
                         <p>Eduardo Santos</p>
                     </div>
                     <div className="scrollAnimation">
-                        <h3>Role para baixo</h3>
+                        <h3>Arraste para baixo</h3>
                         <div className="scroll">
                         <div className="scrollBall"></div>
                     </div>
@@ -100,7 +100,7 @@ export const Jorney = () => {
                         Além de desenvolvimento front-end crio jogos digitais como hobby
                     </p>
 
-                    <a href ="https://drive.google.com/uc?export=download&id=1BMfCFjnR4DNOeMUeDAYQ6HzYi6CUAg14" download='curriculo Eduardo Santos' > Baixar currículo </a>  
+                    <a href ="https://drive.google.com/file/d/1XBoqLZFIN1tmrZZ0FxLa_euJoIo6EkeI/view?usp=drive_link"  > Visualizar currículo </a>  
                     </div>
                 </motion.div>}
             ></ParallaxSection>

@@ -11,6 +11,7 @@
 
 html{
     scroll-behavior: smooth;
+    scroll-padding-top: 15rem;
 }
 
 body{
@@ -74,6 +75,7 @@ body{
     white );
     position: absolute;
     display: flex;
+    margin-bottom: 100vh;
 }
 
 .hero-descript{
@@ -225,7 +227,7 @@ body{
 
 .parallax-container{
     width: 100%;
-    height: 500vh;
+    height: 300vh;
     position: relative;
     display: flex;
 }
@@ -249,7 +251,10 @@ body{
     .card{
         top: 1.5rem;
         height: 35rem;
+    }
 
+    .parallax-container{
+        height: 180vh;
     }
 }
 
@@ -291,8 +296,8 @@ body{
 
 .center-link{
     align-self: center;
-    width: 1px;
-    height: 1px;
+    width: 10px;
+    height: 10px;
 }
 
 /* About card */
@@ -335,7 +340,7 @@ body{
     text-decoration: none;
     margin: 0.5rem auto 0;
     font-size: 2rem;
-    width: 30%;
+    width: 45%;
     box-shadow: 3px 3px 10px 3px black;
 }
 
@@ -485,10 +490,6 @@ body{
     border: 2px solid rgb(0, 0, 0);
     border-radius: 15px;
     background: white;
-}
-
-@media only screen and (max-width: 600px){
-    
 }
 
 /* Footer */
